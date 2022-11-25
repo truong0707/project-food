@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Home Page */
+.header_home {
+    margin: auto;
+    width: 92%;
+    min-height: 900px;
+    /* background: pink; */
+}
+.wrap_home .main_img {
+    width: 100%;
+}
+.wrap_home {
+    position: relative;
+    width: 100%;
+    float: right;
+    background: pink;
+    /* height: 5000px; */
+    background: url("https://img4.thuthuatphanmem.vn/uploads/2020/07/05/hoa-van-nen-trang-dep_035540612.jpg") center;
+    /* background-size: cover; */
+    height: 1000px;
+    margin-top: 50px;
+}
+.backdrop {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(0px);
+    position: absolute;
+    top: 0;
+}
+.Box_go_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    /* background: blue; */
+}
+.Box_go_menu div {
+    border-radius: 5px;
+    width: 550px;
+    height: 240px;
+    list-style: none;
+    padding: 25px;
+}
+.Box_go_menu .food {
+    background: #EBCFB3;
+    left: 0;
+    /* top: 50%; */
+    display: inline-block;
+    position: relative;
+}
+.Box_go_menu .drink {
+    background: #BF014B;
+    right: 0;
+    /* top: 50%; */
+}
+.wrap_home .box_introduce {
+    width: 92%;
+    min-height: 400px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap_home .box_introduce .first {
+    width: 51%;
+    list-style: none;
+}
+.wrap_home .box_introduce .second {
+    width: 45%;
+    list-style: none;
+}
+.box_introduce .first .btn_more {
+    background: #D30052;
+    width: 180px;
+    height: 50px;
+    padding: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box_introduce .second iframe {
+    width: 90%;
+    height: 275px;
+}
+
+
+
+/* responsive */
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* Cả Mobile & tablet: width < 1024px */
+@media only screen and (max-width: 63.9375em) {}
+
+
+/* Reposive Home Page */
+/* table and mobile */
+@media only screen and (max-width: 430px) {
+
+}
